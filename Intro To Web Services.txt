@@ -1,0 +1,32 @@
+What is a Web Service?
+ - Software system designed to support interoperable machine-to-machine interaction
+ - Should allow communication over a network
+ - Should be platform independent
+
+How does data exchange between apps take place?
+ - application makes request to web service
+ - web service sends response to application
+ - response returned in xml or json usually
+
+Key Terminology
+ - Request -> input
+ - Response -> Output
+ - Message Exchange Format -> xml and json
+ - Server -> hosts the web service
+ - Client -> code to build web service ex. java app
+ - Transport -> how a service is called ex. http
+
+REST
+ - representational state transfer
+ - roy fielding
+ - http methods (GET, PUT, POST, DELETE)
+
+Key Abstraction - Resource
+ - A resource is anything exposed to outside world
+ - a resource has a URI
+ 	- /user/ranga/todos/1
+	- /user/ranga/todos
+	- /user/ranga
+ - A resource can have different representations
+	- xml, html, json
+ - ex. post -> create, put -> update, get -> retrieve, delete
